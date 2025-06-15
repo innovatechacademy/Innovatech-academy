@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog | InnovaTech Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>InnovaTech Academy</h1>
+    <nav>
+      <a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a>
+      <a href="blog.html" data-fr="Blog" data-en="Blog">Blog</a>
+    </nav>
+    <select id="language-select" onchange="switchLanguage()">
+      <option value="fr">Français</option>
+      <option value="en">English</option>
+    </select>
+  </header>
+
+  <main>
+    <section>
+      <h2 data-fr="Nos Articles" data-en="Our Articles"></h2>
+
+      <article>
+        <h3 data-fr="Qu'est-ce qu'un routeur ?" data-en="What is a Router?"></h3>
+        <p data-fr="Un routeur est un appareil réseau qui distribue l'internet." 
+           data-en="A router is a network device that distributes internet."></p>
+        <a href="#" data-fr="Lire la suite" data-en="Read more"></a>
+      </article>
+
+      <article>
+        <h3 data-fr="Les bases du câblage réseau" data-en="Network Cabling Basics"></h3>
+        <p data-fr="Découvrez les câbles RJ45, les normes et les paires torsadées." 
+           data-en="Learn about RJ45 cables, standards, and twisted pairs."></p>
+        <a href="#" data-fr="Lire la suite" data-en="Read more"></a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 InnovaTech Academy. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
